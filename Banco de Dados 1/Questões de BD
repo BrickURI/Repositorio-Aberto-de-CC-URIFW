@@ -1,0 +1,75 @@
+Defina:
+1 – Dado: Descrição de alguns objetos, eventos ou atividades, mas não são organizados o suficiente para transmitir um significado especifico
+2 – Informação: são os dados organizados de uma forma que faça sentido para o destinatário, este interpreta os dados e faz conclusões e deduções a partir deles
+3 – Conhecimento: Os dados e informações organizados e processados para transmitir compreensão, técnica, aprendizado para serem usados no entendimento e solução de problemas
+4 – Banco de dados: Coleção de dados relacionados
+5 – SGBD: é um sistema gerenciados de bancos de dados que facilita o processo de definição, construção, manipulação e o compartilhamento entre diversos usuários e aplicações
+
+6 – Independência de dados do programa: No processamento de arquivos tradicional, a estrutura dos arquivos de dados está embutida nos programas de aplicações, de modo que quaisquer mudanças em sua estrutura podem exigir alterações em todos os programas que acessam esse arquivo. Ao contrário, os programas que acessam o SGBD não exigem tais mudanças na maioria dos casos a estrutura dos arquivos de dados é armazenada no catalogo do SGBD separadamente dos programas de acesso. Chamamos essa propriedade de independência de dados do programa
+
+7 – Sistema de banco de dados: união entre o banco de dados e o SGBD
+
+--------------------------------------------------------------------------
+
+Defina:
+1 – Normalização de dados: Garante a consistência e Economia de espaço de armazenamento; (A normalização de dados é uma série de passos que se seguem no objetivo de um banco de dados, que é série de passos que se seguem no objetivo de um banco de dados, que permite um armazenamento consistente e um eficiente acesso aos dados em um banco de dados relacional. Esses passos reduzem a redundância de dados e as chances dos dados se tornarem inconsistentes.)
+
+2 – Restrição de integridade: Tipo de dados
+(Restrição de integridade de entidade: A restrição de integridade de entidade afirma por exemplo que nenhum valor de chave primaria pode ser NULL)
+
+3 – Regra de negócio: são declarações sobre a forma da empresa fazer negócios. Elas refletem políticas do negócio. Desta forma a organização tem políticas para satisfazer os objetivos do negócio, satisfazer clientes, fazer bom uso dos recursos, e obedecer às leias ou convenções gerais do negocio
+
+4 – Integridade de referencial: Restrição de integridade referencial: A Restrição de integridade referencial é especificada entre duas relações (tabelas)e usada para manter a consistência entre tuplas nas duas relações (tabelas) 
+
+5 – Chave ou singularidade: Cada registro tem um valor único que não pode ser repetido
+
+6 – Gatilho ou trigger: Recurso de programação executado sempre que o evento associado ocorrer
+
+7 – Procedimento armazenado ou stored procedure: coleção de comandos em SQL para processamento em banco de dados encapsula tarefas repetitivas, aceita parâmetros de entrada e retorna de valores
+
+-----------------------------------------------------------------
+
+1 – Modelo de dados:  Uma coleção de conceitos que podem ser usados para descrever a estrutura de um banco de dados
+
+2 – Esquema de banco de dados: é a representação visual de um banco de dados, um conjunto de regras que gerencia um banco de dados ou todo o conjunto de objetos que pertencem a um determinado usuário
+
+3 – Estado de banco de dados: Momento do tempo em que são modificados os registros do banco de dados, a cada inserção, deleção e etc... é gerado um novo estado no banco de dados
+
+4 – Esquema conceitual: descrição da estrutura de banco  para um grupo de usuários
+
+5 – Independência de dados: É a capacidade de alterar o esquema conceitual sem ter que alterar o esquema externo ou programa de aplicação e também alterar o esquema interno sem necessitar alterar o esquema conceitual
+
+6 – DDL: Data Definition language
+
+7 – DML Data Manipulation Language
+ 
+8 – SDL Storage Definition Language
+
+9 – VDL View Definition Language
+
+10 – linguagem de consulta:  Linguagem de consulta padrão, para consultar estruturadas, para o modelo de banco de dados relacional
+
+11 – Arquitetura cliente/servidor: Desenvolvida para gerenciar uma grande quantidade de conexões ao mesmo tempo e que se conectam com outros servidores de serviços como servidores de impressão, arquivos, web, correio. As maquinas clientes oferecem uma interface amigável para o usuário buscar as informações
+
+12 – Arquitetura de três camadas:  Acrescenta uma camada intermediaria entre cliente e servidor
+Cliente – camada de aplicação
+Servidor de aplicação – camada logica de negocio
+Servidor de BD – camada de serviços de BD
+
+--------------------------------------------------------------------
+
+DEFINA
+
+1 – Relação: Tabela
+
+2 – Atributo: Cabeçalho de coluna
+
+3 – Tupla: Linha
+
+4 – Esquema BD relacional:  É um conjunto de esquemas de relações e um conjunto de restrições.
+
+
+
+
+
+
