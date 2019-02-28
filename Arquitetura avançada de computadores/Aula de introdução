@@ -1,0 +1,141 @@
+Níveis de Paralelismo
+  ●	Introdução (granulosidade fina)
+    ○	Paralelismo entre introdução;
+    ○	Arquiteturas Pipeline, Superescalar, VLIM.
+
+  ●	Tarefas (granulosidade média)
+    ○	Paralelismo entre threads;
+    ○	Arquiteturas SMT (multiprocessadores simétricos).
+
+  ●	Processos (granulosidade grossa)
+    ○	Paralelismo entre processos;
+    ○	Comparação Paralela;
+    ○	Arquiteturas de multiprocessadores e multicomputadores.
+
+Conceito - Computação Paralela
+  ●	Permite a execução de tarefas em menor tempo, através da execução em paralelo de diversas tarefas.
+
+  ●	O paralelismo pode ser obtido em diversos níveis com ou sem o uso de linguagens de programação paralela.
+
+  ●	Arquitetura de diversos tipos, elaboradas para aplicações específicas, podem ser utilizadas para acelerar a execução dessas aplicações.
+
+  ●	Programação
+    ○	Sequencial
+    ○	Concorrente  
+       ■	Um servidor atende clientes através de uma política de escalonamento de tempo.
+    ○	Paralelo
+      ■	Vários servidores atendendo vários clientes simultaneamente no tempo.
+
+Computação Paralela - Aplicações
+  ●	Google
+  ●	Servidor de jogos
+  ●	Processadores
+  ●	Servidores que atendem mais que um cliente
+  ●	Servidores DNS
+  ●	Genoma Humano
+  ●	Indústria farmacêutica
+  ●	Simulação:
+    ○	Fluídos
+    ○	Dinâmica de fluidos viscosos
+    ○	Dinâmica de Aeronaves
+
+  ●	Meteorologia
+  ●	Processamento de imagens
+  ●	Visão computacional
+  ●	Realidade virtual
+  ●	Computação gráfica
+  ●	Jogos de computadores
+
+Computação Paralela Classificação de Tipos
+  ●	Classificação de Flynn (1972)
+  ○	Mais conhecida
+  ○	Baseia na unicidade e multiplicidade de fluídos de dados e instruções
+  ○	A mais utilizada comercialmente
+
+  ●	Classificação de Ducan (1990)
+  ○	Mais abrangente
+  ○	Menos conhecido e utilizado
+
+  ●	Pontos importantes
+  ○	Para a forma de organização temos:
+  ■	1º multiprocessadores simétricos (SMP) e clusters
+  ■	2º Acesso não uniforme à memória (NUMA)
+  ○	SMP - Algumas configurações de arquiteturas de vários processadores
+
+  Veja as Imagens: 
+    2 - Chip multiprocessado
+    3 - Cluster
+    NUMA
+ 
+
+Organização de Múltiplos Processadores
+
+  ●	Taxonomia de Flynn (1972)
+    ○	Temos 4 categorias:
+      ■	SISD
+      ■	SIMD
+      ■	MISD - Não implementado comercialmente
+      ■	MIMD
+
+●	Classificação de Flynn (1972)
+	 Veja a imagem classificação de flynn
+
+  ●	SISD - Single Instruction Single Data
+    ○	Instrução única, único dado
+      ■	Processamento único
+      ■	Única sequência de instrução
+      ■	Dados organizados em uma única memória
+      ■	Único Processador
+
+  ●	SIMD - Single Instruction Multiple Data
+    ○	Instrução única, múltiplos dados
+      ■	Única instrução de máquina
+      ■	Controla execuções simultâneas
+      ■	Base inflexível
+      ■	Cada elemento de dados possui memória de dados associada
+      ■	Cada instrução executa em conjuntos de dados em processadores diferentes
+      ■	Processadores de vetores e matrizes
+
+  ●	MISD - Multiple Instruction Single Data
+    ○	Múltiplas instruções, único dado
+      ■	Sequência de dados transmitido ao conjunto de processadores
+      ■	Cada processador executa uma sequência de instruções diferentes
+      ■	Não implementado comercialmente
+
+  ●	MIMD - Multiple Instruction Multiple Data
+    ○	Conjunto de Processadores
+      ■	Executam simultaneamente diferentes sequências de instruções
+      ■	Diferentes conjuntos de dados
+
+  ●	SMB, Clusters e Sistemas NUMA
+    ○	Multiprocessador Simétrico
+    ○	Acesso não uniforme a memória
+
+Taxonomia das arquiteturas de processadores paralelos
+  ●	Organização dos Processadores
+    ○	SISD
+      ■	Uniprocessador
+    ○	SIMD
+      ■	Processador Vetorial
+      ■	Processador de Matrizes
+    ○	MISD
+      ■	Memória compartilhada fortemente acoplada
+      
+  ●	Multiprocessador simétrico SMP
+  ●	Acesso a memória não uniforme NUMA
+    ○	MIMD
+      ■	Memória distribuída
+      ■	Cluster
+
+
+
+●	Siglas importantes
+  ○	UC	= Unidade de Controle
+  ○	IS	= Fluxo de Instrução
+  ○	PU	= Unidade de Processamento
+  ○	DS	= Fluxo de Dados
+  ○	MU	= Unidade de Memória
+  ○	LM	= Memória Local
+  ○	SISD	= Instrução única, dado único
+  ○	SIMD	= Instrução única, múltiplos dados
+  ○	MIMD	= Instrução Múltiplas, Dados múltiplos 
